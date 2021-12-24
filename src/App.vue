@@ -1,11 +1,14 @@
-<script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue';
-</script>
-
 <template>
-  <div class="flex place-content-center">
-    <img alt="Vue logo" src="./assets/logo.png" />
+  <div class="flex flex-col place-content-center bg-teal-100 h-full">
+    <div class="flex place-content-center my-10">
+      <img alt="Splitter Logo" src="./assets/logo.svg" />
+    </div>
+    <main class="grow bg-white rounded-t-3xl"></main>
   </div>
 </template>
+
+<style>
+#app {
+  height: 100vh;
+}
+</style>
