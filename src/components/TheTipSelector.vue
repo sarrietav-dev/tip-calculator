@@ -15,6 +15,7 @@
           font-bold
           text-xl text-darkest-cyan text-right
           focus:ring-2 focus:ring-primary-cyan
+          transition
         "
       />
     </ul>

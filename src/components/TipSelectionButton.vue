@@ -9,13 +9,15 @@
   <label
     class="
       bg-darkest-cyan
+      active:bg-light-cyan active:text-darkest-cyan
+      peer-checked:bg-primary-cyan peer-checked:text-darkest-cyan
       text-white text-2xl
+      transition
       font-bold
       rounded
       py-1.5
       flex
       place-content-center
-      peer-checked:bg-primary-cyan peer-checked:text-darkest-cyan
     "
     :for="percentage.toString()"
   >
