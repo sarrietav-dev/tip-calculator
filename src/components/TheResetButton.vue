@@ -1,6 +1,7 @@
 <template>
   <button
     type="reset"
+    @click="store.$reset()"
     class="
       bg-primary-cyan
       active:bg-light-cyan
@@ -17,3 +18,9 @@
     Reset
   </button>
 </template>
+
+<script lang="ts" setup>
+import useStore from '@/store/mainStore';
+
+const store = useStore();
+</script>
