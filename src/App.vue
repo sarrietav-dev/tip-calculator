@@ -18,9 +18,3 @@
 <script lang="ts" setup>
 import ThePanel from '@/components/ThePanel.vue';
 </script>
-
-<style>
-#app {
-  height: 100vh;
-}
-</style>
