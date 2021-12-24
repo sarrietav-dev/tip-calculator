@@ -13,6 +13,8 @@ module.exports = {
       'dark-cyan': 'hsl(184, 14%, 56%)',
       'darker-cyan': 'hsl(186, 14%, 43%)',
       'darkest-cyan': 'hsl(183, 100%, 15%)',
+      'opaque-cyan': '#0d696e',
+      'opaquest-cyan': '#065e62',
       'light-cyan': 'hsl(185, 41%, 84%)',
       'lighter-cyan': 'hsl(189, 41%, 97%)',
     },
