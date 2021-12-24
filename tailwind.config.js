@@ -6,10 +6,12 @@ module.exports = {
         'space-mono': ['Space Mono', 'monospace'],
       },
       colors: {
-        "grayish-cyan": "hsl(184, 14%, 56%)",
-        teal: {
-          150: 'hsl(185, 41%, 84%)',
-        },
+        'primary-cyan': 'hsl(172, 67%, 45%)',
+        'dark-cyan': 'hsl(184, 14%, 56%)',
+        'darker-cyan': 'hsl(186, 14%, 43%)',
+        'darkest-cyan': 'hsl(183, 100%, 15%)',
+        'light-cyan': 'hsl(189, 41%, 97%)',
+        'lighter-cyan': 'hsl(185, 41%, 84%)',
       },
     },
   },
