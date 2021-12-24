@@ -22,9 +22,7 @@
 </template>
 
 <script lang="ts" setup>
-import { useSlots } from 'vue';
-
-const props = defineProps({
+defineProps({
   label: { required: true, type: String },
 });
 </script>
