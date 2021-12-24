@@ -16,7 +16,7 @@
 </template>
 
 <script lang="ts" setup>
-import ThePanel from './components/ThePanel.vue';
+import ThePanel from '@/components/ThePanel.vue';
 </script>
 
 <style>
