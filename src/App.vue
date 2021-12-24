@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col place-content-center bg-teal-100 h-full">
+  <div class="flex flex-col place-content-center bg-teal-150 h-full">
     <div class="flex place-content-center my-10">
       <img alt="Splitter Logo" src="./assets/logo.svg" />
     </div>
