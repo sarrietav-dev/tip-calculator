@@ -7,7 +7,7 @@
     <input
       :id="label"
       type="number"
-      value="0"
+      placeholder="0"
       class="
         border-none
         bg-gray-100
