@@ -13,8 +13,8 @@
         bg-gray-100
         rounded
         font-bold
-        text-xl text-green-900 text-right
-        focus:ring-2 focus:ring-green-500
+        text-xl text-darkest-cyan text-right
+        focus:ring-2 focus:ring-primary-cyan
       "
     />
   </div>

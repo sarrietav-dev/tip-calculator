@@ -4,7 +4,7 @@
       font-space-mono
       flex flex-col
       place-content-center
-      bg-teal-150
+      bg-light-cyan
       h-full
     "
   >

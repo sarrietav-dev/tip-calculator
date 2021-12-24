@@ -2,8 +2,8 @@
   <button
     type="reset"
     class="
-      bg-emerald-400
-      text-emerald-800 text-lg
+      bg-primary-cyan
+      text-darkest-cyan text-lg
       font-bold
       uppercase
       rounded

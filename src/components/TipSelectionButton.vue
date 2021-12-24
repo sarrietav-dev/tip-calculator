@@ -8,14 +8,14 @@
   />
   <label
     class="
-      bg-emerald-800
+      bg-darkest-cyan
       text-white text-2xl
       font-bold
       rounded
       py-1.5
       flex
       place-content-center
-      peer-checked:bg-emerald-400 peer-checked:text-emerald-800
+      peer-checked:bg-primary-cyan peer-checked:text-darkest-cyan
     "
     :for="percentage.toString()"
   >

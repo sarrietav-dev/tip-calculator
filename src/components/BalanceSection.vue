@@ -2,9 +2,9 @@
   <div class="flex items-center">
     <div class="flex flex-col grow">
       <p class="text-lg text-white font-bold">{{ label }}</p>
-      <p class="text-grayish-cyan font-bold">/ person</p>
+      <p class="text-dark-cyan font-bold">/ person</p>
     </div>
-    <p class="text-3xl text-emerald-400 font-bold">${{ amount }}</p>
+    <p class="text-3xl text-primary-cyan font-bold">${{ amount }}</p>
   </div>
 </template>
 

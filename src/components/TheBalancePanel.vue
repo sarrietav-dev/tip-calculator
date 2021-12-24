@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-emerald-800 p-6 pt-10 rounded-xl flex flex-col space-y-6">
+  <div class="bg-darkest-cyan p-6 pt-10 rounded-xl flex flex-col space-y-6">
     <BalanceSection label="Tip Amount" :amount="4.27" />
     <BalanceSection label="Total" :amount="32.79" />
     <TheResetButton />
