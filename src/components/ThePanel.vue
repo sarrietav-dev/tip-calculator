@@ -10,7 +10,18 @@
           <li v-for="tipNumber in tipNumbers">
             <TipSelectionButton :percentage="tipNumber" />
           </li>
-          <button>Custom</button>
+          <input
+            type="number"
+            placeholder="Custom"
+            class="
+              border-none
+              bg-gray-100
+              rounded
+              font-bold
+              text-2xl text-green-900 text-right
+              focus:ring-2 focus:ring-green-500
+            "
+          />
         </ul>
       </div>
       <NumberInput label="Number of People">
