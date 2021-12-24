@@ -3,7 +3,7 @@
     type="radio"
     class="sr-only peer"
     :value="percentage"
-    :id="percentage"
+    :id="percentage.toString()"
     name="tip-selection"
   />
   <label
@@ -17,7 +17,7 @@
       place-content-center
       peer-checked:bg-emerald-400 peer-checked:text-emerald-800
     "
-    :for="percentage"
+    :for="percentage.toString()"
   >
     {{ percentage + '%' }}
   </label>
