@@ -3,9 +3,13 @@
     <div class="flex place-content-center my-10">
       <img alt="Splitter Logo" src="./assets/logo.svg" />
     </div>
-    <main class="grow bg-white rounded-t-3xl"></main>
+    <ThePanel />
   </div>
 </template>
+
+<script lang="ts" setup>
+import ThePanel from './components/ThePanel.vue';
+</script>
 
 <style>
 #app {
