@@ -1,0 +1,12 @@
+<template>
+  <div class="bg-emerald-800 p-6 pt-10 rounded-xl flex flex-col space-y-6">
+    <BalanceSection label="Tip Amount" :amount="4.27" />
+    <BalanceSection label="Total" :amount="32.79" />
+    <TheResetButton />
+  </div>
+</template>
+
+<script lang="ts" setup>
+import BalanceSection from './BalanceSection.vue';
+import TheResetButton from './TheResetButton.vue';
+</script>

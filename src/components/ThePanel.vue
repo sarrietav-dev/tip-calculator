@@ -8,6 +8,7 @@
       <NumberInput label="Number of People">
         <img src="@/assets/icon-person.svg" alt="Person icon" class="h-full" />
       </NumberInput>
+      <TheBalancePanel />
     </form>
   </main>
 </template>
@@ -15,4 +16,5 @@
 <script lang="ts" setup>
 import NumberInput from './NumberInput.vue';
 import TheTipSelector from './TheTipSelector.vue';
+import TheBalancePanel from './TheBalancePanel.vue';
 </script>
