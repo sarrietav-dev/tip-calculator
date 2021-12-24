@@ -9,9 +9,12 @@ const useStore = defineStore('main', {
     };
   },
   getters: {
-    tipAmount: ({ tip, bill, people }) => (bill * (tip / 100)) / people,
+    tipAmount: ({ tip, bill, people }) =>
+      Number.parseFloat(((bill * (tip / 100)) / people).toFixed(2)),
     totalAmount(): number {
-      return this.bill / this.people + this.tipAmount;
+      return Number.parseFloat(
+        (this.bill / this.people + this.tipAmount).toFixed(1),
+      );
     },
   },
 });
