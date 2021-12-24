@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia';
 
-const store = defineStore('main', {
+const useStore = defineStore('main', {
   state: () => {
     return {
       bill: 0,
@@ -16,4 +16,4 @@ const store = defineStore('main', {
   },
 });
 
-export default store;
+export default useStore;
