@@ -8,6 +8,8 @@
       :id="label"
       type="number"
       placeholder="0"
+      :value="modelValue"
+      @input="$emit('update:modelValue', ($event.target as HTMLInputElement).value)"
       class="
         border-none
         bg-gray-100
@@ -23,6 +25,8 @@
 
 <script lang="ts" setup>
 defineProps({
+  modelValue: Number,
   label: { required: true, type: String },
 });
+defineEmits(['update:modelValue']);
 </script>

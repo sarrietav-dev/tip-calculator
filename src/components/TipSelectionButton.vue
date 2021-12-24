@@ -5,6 +5,7 @@
     :value="percentage"
     :id="percentage.toString()"
     name="tip-selection"
+    @change="$emit('update:modelValue', ($event.target as HTMLInputElement).value)"
   />
   <label
     class="
@@ -27,6 +28,9 @@
 
 <script lang="ts" setup>
 defineProps({
+  modelValue: { type: Number, default: '' },
   percentage: { required: true, type: Number },
 });
+
+defineEmits(['update:modelValue']);
 </script>
