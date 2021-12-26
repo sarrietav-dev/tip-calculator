@@ -8,6 +8,7 @@
       :id="label"
       type="number"
       placeholder="0"
+      min="1"
       :value="modelValue"
       @input="$emit('update:modelValue', ($event.target as HTMLInputElement).value)"
       class="
