@@ -1,6 +1,6 @@
 <template>
   <main class="grow lg:grow-0 bg-white rounded-t-3xl lg:rounded-3xl p-7">
-    <form action="" class="lg:flex lg:gap-14 space-y-10">
+    <form action="" class="lg:flex lg:gap-14 space-y-10 lg:space-y-0">
       <div class="space-y-10 flex-1">
         <NumberInput label="Bill" v-model.number="bill">
           <img src="@/assets/icon-dollar.svg" alt="Price icon" class="h-full" />
