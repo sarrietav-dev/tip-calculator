@@ -1,6 +1,6 @@
 <template>
-  <div class="flex items-center">
-    <div class="flex flex-col grow">
+  <div class="flex items-center justify-between">
+    <div class="flex flex-col">
       <p class="text-lg text-white font-bold">{{ label }}</p>
       <p class="text-dark-cyan font-bold">/ person</p>
     </div>
