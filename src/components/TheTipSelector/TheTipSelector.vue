@@ -6,7 +6,6 @@
         <TipSelectionButton
           :percentage="tipNumber"
           v-model.number="tip"
-          @click="handleClick"
           :disabled="disabled"
         />
       </li>
