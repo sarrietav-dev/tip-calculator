@@ -1,5 +1,5 @@
 <template>
-  <main class="grow lg:grow-0 bg-white rounded-t-3xl p-7">
+  <main class="grow lg:grow-0 bg-white rounded-t-3xl lg:rounded-3xl p-7">
     <form action="" class="lg:flex lg:gap-14 space-y-10">
       <div class="space-y-10">
         <NumberInput label="Bill" v-model.number="bill">
