@@ -6,6 +6,9 @@
       place-content-center
       bg-light-cyan
       h-full
+      lg:h-screen
+      lg:space-y-10
+      lg:px-60
     "
   >
     <div class="flex place-content-center my-10">
