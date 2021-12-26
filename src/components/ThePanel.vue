@@ -28,8 +28,8 @@ import useStore from '@/store/mainStore';
 
 const store = useStore();
 
-const bill = ref(store.$state.bill);
-const people = ref(store.$state.people);
+const bill = ref();
+const people = ref();
 
 watch(bill, (bill) => store.$patch({ bill }));
 watch(people, (people) => store.$patch({ people }));
