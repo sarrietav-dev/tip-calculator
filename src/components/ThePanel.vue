@@ -21,7 +21,7 @@
 
 <script lang="ts" setup>
 import NumberInput from './NumberInput.vue';
-import TheTipSelector from './TheTipSelector.vue';
+import TheTipSelector from './TheTipSelector/TheTipSelector.vue';
 import TheBalancePanel from './TheBalancePanel.vue';
 import { ref, watch } from 'vue';
 import useStore from '@/store/mainStore';
