@@ -1,7 +1,7 @@
 <template>
   <div class="space-y-4">
     <label class="text-gray-500 font-bold">Select Tip %</label>
-    <ul class="grid grid-cols-2 gap-4">
+    <ul class="grid grid-cols-2 lg:grid-cols-3 gap-4">
       <li v-for="tipNumber in tipNumbers">
         <TipSelectionButton
           :percentage="tipNumber"
@@ -13,6 +13,8 @@
         type="number"
         placeholder="Custom"
         v-model.number="customTip"
+        min="0"
+        max="100"
         @click="handleInputClick"
         @focus="handleFocus"
         class="
