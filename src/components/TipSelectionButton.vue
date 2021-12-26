@@ -21,6 +21,7 @@
       place-content-center
     "
     :for="percentage.toString()"
+    @click="$emit('click', percentage)"
   >
     {{ percentage + '%' }}
   </label>
@@ -32,5 +33,5 @@ defineProps({
   percentage: { required: true, type: Number },
 });
 
-defineEmits(['update:modelValue']);
+defineEmits(['update:modelValue', 'click']);
 </script>
