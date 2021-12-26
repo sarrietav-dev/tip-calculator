@@ -7,6 +7,7 @@
           :percentage="tipNumber"
           v-model.number="tip"
           @click="handleClick"
+          :disabled="disabled"
         />
       </li>
       <input
@@ -16,7 +17,6 @@
         min="0"
         max="100"
         @click="handleInputClick"
-        @focus="handleFocus"
         class="
           border-none
           bg-gray-100
@@ -33,7 +33,7 @@
 
 <script lang="ts" setup>
 import useStore from '@/store/mainStore';
-import { ref, watch } from 'vue';
+import { computed, ref, watch } from 'vue';
 import TipSelectionButton from './TipSelectionButton.vue';
 
 const tipNumbers = ref([5, 10, 15, 25, 50]);
@@ -57,15 +57,12 @@ watch(customTip, (customTip, oldTip) => {
   store.$patch({ tip: customTip });
 });
 
+const disabled = computed(() => (customTip.value ? true : false));
+
 const handleClick = (...args: any) => {
   store.$patch((state) => {
     state.tip = args[0];
   });
-};
-
-const handleFocus = () => {
-  uncheckRadioButtons();
-  store.$patch({ tip: customTip.value });
 };
 
 const handleInputClick = (e: MouseEvent) => {
