@@ -7,6 +7,7 @@
           :percentage="tipNumber"
           v-model.number="tip"
           :disabled="disabled"
+          @click="handleClick"
         />
       </li>
       <input
@@ -60,7 +61,9 @@ const disabled = computed(() => (customTip.value ? true : false));
 
 const handleClick = (...args: any) => {
   store.$patch((state) => {
-    state.tip = args[0];
+    if (state.tip.toString() === '') {
+      state.tip = args[0];
+    }
   });
 };
 
